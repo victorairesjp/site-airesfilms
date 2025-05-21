@@ -10,7 +10,7 @@
     --secondary-color: #212121;
     --third-color: #82887c;
     --fourth-color: #cdc0b1;
-    --text-color: #333;
+    --text-color: #212121;
     --light-color: #f8f9fa;
     --dark-color: #2c3e50;
     --transition: all 0.3s ease;
@@ -123,6 +123,7 @@ body {
     background-color: var(--secondary-color);
     color: white;
     text-decoration: none;
+    font-weight: 600;
     border-radius: 5px;
     transition: var(--transition);
 }
@@ -135,7 +136,8 @@ body {
 /* About Section */
 .about {
     padding: 100px 0;
-    background-color: var(--light-color);
+    background: linear-gradient(rgba(248, 249, 250, 0.9), rgba(248, 249, 250, 0.9)),
+                url('assets/fotos/Manel-Thais-olhar.png') center/cover no-repeat fixed;
 }
 
 .about h2 {
@@ -166,6 +168,8 @@ body {
 /* Films Section */
 .films {
     padding: 100px 0;
+    background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
+                url('assets/fotos/casal-sem-rosto.png') center/cover no-repeat fixed;
 }
 
 .films h2 {
@@ -255,15 +259,6 @@ body {
     text-decoration: none;
 }
 
-.play-button:hover {
-    transform: translate(-50%, -50%) scale(1.1);
-}
-
-.play-button i {
-    color: white;
-    font-size: 1.5rem;
-}
-
 .film-description {
     display: flex;
     flex-direction: column;
@@ -274,10 +269,10 @@ body {
 }
 
 .film-description h3 {
-    color: var(--primary-color);
-    font-size: 1.25rem;
+    color: var(--text-color);
+    font-size: 1.50rem;
     margin: 0 0 1rem 0;
-    font-weight: 500;
+    font-weight: 700;
     text-align: center;
 }
 
@@ -285,31 +280,38 @@ body {
     color: var(--text-color);
     margin-bottom: 1rem;
     line-height: 1.6;
+    text-align: center;
 }
 
+/* Description Features */
 .description-features {
     list-style: none;
     padding: 0;
     margin: 0;
+    text-align: center; 
+    margin-top: 2rem;
+
 }
 
 .description-features li {
     display: flex;
     align-items: center;
-    margin-bottom: 0.5rem;
+    justify-content: left;
+    margin: 1rem;
     color: var(--text-color);
 }
 
 .description-features i {
     color: var(--primary-color);
-    margin-right: 0.5rem;
+    margin-right: 1rem;
     font-size: 1rem;
 }
 
 /* Packages Section */
 .packages {
     padding: 100px 0;
-    background-color: var(--light-color);
+    background: linear-gradient(rgba(248, 249, 250, 0.9), rgba(248, 249, 250, 0.9)),
+                url('assets/fotos/Manel-Thais-olhar.png') center/cover no-repeat fixed;
 }
 
 .packages h2 {
@@ -395,6 +397,8 @@ body {
 /* Customize Section */
 .customize {
     padding: 100px 0;
+    background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
+                url('assets/fotos/casal-sem-rosto.png') center/cover no-repeat fixed;
 }
 
 .customize h2 {
@@ -447,7 +451,8 @@ body {
 /* Contact Section */
 .contact {
     padding: 100px 0;
-    background-color: var(--light-color);
+    background: linear-gradient(rgba(248, 249, 250, 0.9), rgba(248, 249, 250, 0.9)),
+                url('assets/fotos/Manel-Thais-olhar.png') center/cover no-repeat fixed;
 }
 
 .contact h2 {
