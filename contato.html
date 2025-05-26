@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aires Films - Vídeos para Casamentos</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+    <body>
+        <!-- Header/Navigation -->
+        <header class="header">
+            <nav class="nav-container">
+                <div class="logo">
+                    <img src="assets/logos/LOGO-2-PRETA.png" alt="Aires Films Logo" class="logo-img">
+                </div>
+                <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                <label for="nav-toggle" class="nav-toggle-label">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="index.html#quem-somos">Quem Somos</a></li>
+                    <li><a href="index.html#nossos-filmes">Nossos Filmes</a></li>
+                    <li><a href="index.html#pacotes">Pacotes</a></li>
+                    <li><a href="index.html#personalize">Personalize</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Contato Section -->
+        <section id="contato" class="contact">
+            <div class="container">
+                <h2>Fale Conosco</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>contato@airesfilms.com.br</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>João Pessoa, PB</p>
+                        </div>
+                        <div class="social-media">
+                            <a href="https://www.instagram.com/victorairesfilms" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form id="contact-form" action="mailto:contato@airesfilms.com.br" method="post" enctype="text/plain">
+                            <input type="text" name="nome" placeholder="Nome" required>
+                            <input type="email" name="email" placeholder="Email" required>
+                            <input type="tel" name="telefone" placeholder="Telefone" required>
+                            <textarea name="mensagem" placeholder="Mensagem" required></textarea>
+                            <button type="submit" class="submit-button">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </body>
+</html>
+
