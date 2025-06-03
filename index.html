@@ -6,6 +6,9 @@
     <title>Aires Films - Vídeos para Casamentos</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Substituir pelo CDN correto para uso dinâmico do Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <!-- Header/Navigation -->
@@ -20,7 +23,7 @@
             </label>
             <ul class="nav-menu">
                 <li><a href="#inicio">Início</a></li>
-                <li><a href="#quem-somos">Quem Somos</a></li>
+                <li><a href="quem-somos.html">Quem Somos</a></li>
                 <li><a href="#nossos-filmes">Nossos Filmes</a></li>
                 <li><a href="#pacotes">Pacotes</a></li>
                 <li><a href="#personalize">Personalize</a></li>
@@ -35,23 +38,6 @@
             <h1>Transformando Momentos em Memórias Eternas</h1>
             <p>É possível reviver as melhores e mais importantes experiências!</p>
             <a href="#nossos-filmes" class="cta-button">Veja nossos filmes</a>
-        </div>
-    </section>
-
-    <!-- Quem Somos Section -->
-    <section id="quem-somos" class="about">
-        <div class="container">
-            <h2>Quem Somos</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>Somos apaixonados por contar histórias através de filmes.</p>
-                    <p>Nós da Aires Films temos como missão dar aos nossos parceiros a possibilidade de reviver sentimentos e experiências que marcaram suas vidas, ou seja, eternizar momentos especiais e importantes. Transformamos esses momentos especiais em memórias eternas.</p>
-                    <p>Somos comprometidos em capturar a essência de cada casamento, preservando as emoções e detalhes que tornam seu dia único.</p>
-                </div>
-                <div class="about-image">
-                    <img src="assets/fotos/Manel-Thais-olhar.png" alt="Nossa Equipe">
-                </div>
-            </div>
         </div>
     </section>
 
@@ -91,7 +77,7 @@
                     </div>
                     <div class="film-description">
                         <h3>Teaser</h3>
-                        <p>Um aperitivo de tudo que aconteceu no seu grande dia. É um filme que resume de forma dinâmica e emocionante o casamento. Perfeito para compartilhar com amigos e familiares logo após a cerimônia.</p><br>
+                        <p>Um aperitivo de tudo que aconteceu no seu grande dia. É um filme que resume de forma dinâmica e emocionante o casamento. Perfeito para compartilhar com amigos e familiares logo após a cerimônia.</p><br><br>
                         <ul class="description-features">
                             <li><i class="fas fa-clock"></i> Duração do filme: até 90 segundos</li>
                             <li><i class="fas fa-check"></i> Entrega em até 48h</li>
@@ -151,7 +137,7 @@
                 <div class="package-card">
                     <h3>Básico</h3>
                     <div class="price">R$ 2.900</div>
-                    <ul>
+                    <ul class="package-features">
                         <li>1 Filme Teaser (até 90 segundos)</li>
                         <li>1 Filme Highlights (3 à 5 minutos)</li>
                         <li>Até 6 horas de filmagem</li>
@@ -163,7 +149,7 @@
                     <div class="popular-badge">Mais Popular</div>
                     <h3>Premium</h3>
                     <div class="price">R$ 3.800</div>
-                    <ul>
+                    <ul class="package-features">
                         <li>1 Filme Completo (até 15 minutos)</li>
                         <li>1 Filme Teaser (até 90 segundos)</li>
                         <li>Até 8 horas de filmagem</li>
@@ -175,7 +161,7 @@
                 <div class="package-card">
                     <h3>Exclusive</h3>
                     <div class="price">R$ 5.500</div>
-                    <ul>
+                    <ul class="package-features">
                         <li>1 Filme Completo (até 15 minutos)</li>
                         <li>1 Filme Teaser (até 90 segundos)</li>
                         <li>1 Filme Teaser (até 90 segundos)</li>
@@ -235,9 +221,9 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2023 Aires Films</p>
+                <p>&copy; 202 Aires Films</p>
             </div>
         </div>
     </footer>
 </body>
-</html> 
+</html>
