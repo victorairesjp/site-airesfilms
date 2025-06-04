@@ -1,4 +1,4 @@
-/* Reset and Base Styles */
+/* Estilo Base */
 * {
     margin: 0;
     padding: 0;
@@ -32,7 +32,7 @@ body {
     padding: 0 20px;
 }
 
-/* Header Styles */
+/* Header */
 .header {
     position: fixed;
     top: 0;
@@ -89,7 +89,7 @@ body {
     color: var(--secondary-color);
 }
 
-/* Hero Section */
+/* Hero */
 .hero {
     height: 100vh;
     background: linear-gradient(rgba(33, 33, 33, 0.5), rgba(33, 33, 33, 0.5)),
@@ -136,7 +136,7 @@ body {
     transform: translateY(-2px);
 }
 
-/* About Section */
+/* About */
 .about {
     padding: 100px 0;
     background: linear-gradient(rgba(248, 249, 250, 0.8), rgba(248, 249, 250, 0.8)),
@@ -171,7 +171,7 @@ body {
     transform:translateY(-30px);
 }
 
-/* Films Section */
+/* Films */
 .films {
     padding: 100px 0;
     background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
@@ -275,7 +275,7 @@ body {
     text-align: left;
 }
 
-/* Description Features */
+/* Description */
 .description-features {
     list-style: none;
     padding: 0;
@@ -299,7 +299,7 @@ body {
     font-size: 1rem;
 }
 
-/* Packages Section */
+/* Packages */
 .packages {
     padding: 100px 0;
     background: linear-gradient(rgba(248, 249, 250, 0.7), rgba(248, 249, 250, 0.5)),
@@ -404,7 +404,7 @@ body {
     color: #212121;
 }
 
-/* Customize Section */
+/* Customize */
 .customize {
     padding: 100px 0;
     background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
@@ -458,7 +458,7 @@ body {
     resize: vertical;
 }
 
-/* Contact Section */
+/* Contact */
 .contact {
     padding: 100px 0;
     background: linear-gradient(rgba(248, 249, 250, 0.9), rgba(248, 249, 250, 0.9)),
@@ -595,7 +595,7 @@ body {
     color: #666;
 }
 
-/* Responsive Design */
+/* Responsive */
 @media (max-width: 768px) {
     .nav-toggle-label {
         display: block;
