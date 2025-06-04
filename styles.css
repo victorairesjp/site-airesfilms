@@ -393,6 +393,7 @@ body {
     background-color: var(--secondary-color);
     color: white;
     text-decoration: none;
+    font-weight: 700;
     border-radius: 5px;
     transition: var(--transition);
     margin-top: auto;
